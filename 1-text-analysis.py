@@ -10,8 +10,8 @@ class colors:
     reset = '\033[0m'
 
 
-cog_endpoint = "ENDPOINT"
-cog_key = "KEY"
+cog_endpoint = "https://ai-letsgo.cognitiveservices.azure.com/"
+cog_key = "1900553b76394f80af2a5ed7d1c200e0"
 text_analytics_client = TextAnalyticsClient(endpoint=cog_endpoint, credential=AzureKeyCredential(cog_key))
 
 
